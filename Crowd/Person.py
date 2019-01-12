@@ -1,7 +1,7 @@
 
 
 class Person:
-    def __init__(self, id, wealth = 1000, give_moneygit = 1, crowd_num = 10000):
+    def __init__(self, id, wealth = 1000, give_money = 1, crowd_num = 10000):
         self.id = id
         self.wealth = wealth
         self.give_money = give_money

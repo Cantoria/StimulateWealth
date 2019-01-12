@@ -13,7 +13,7 @@ class DrawCrowd:
         crowd_array.sort(key=lambda x:x.wealth,reverse=False)
         wealth = [x.wealth for x in crowd_array]
         n = np.arange(self.personcrowd.person_num)
-        plt.bar(n, wealth,facecolor='#9999ff', edgecolor='white')
+        plt.bar(n, wealth)
         for x, y in zip(n, wealth):
             # ha: horizontal alignment
             # va: vertical alignment
